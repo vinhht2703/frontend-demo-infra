@@ -1,7 +1,7 @@
 {
   "containerDefinitions": [
     {
-      "name": "web",
+      "name": "CONTAINER_NAME",
       "image": "REPOSITORY_URI:IMAGE_TAG",
       "portMappings": [
         {
@@ -14,7 +14,7 @@
   ],
   "taskRoleArn": "TASK_ROLE_ARN",
   "executionRoleArn": "EXECUTION_ROLE_ARN",
-  "family": "codedeploy-sample",
+  "family": "FAMILY",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
