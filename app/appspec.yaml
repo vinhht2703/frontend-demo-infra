@@ -5,5 +5,5 @@ Resources:
       Properties:
         TaskDefinition: "TASK_DEFINITION_ARN"
         LoadBalancerInfo:
-          ContainerName: "web"
+          ContainerName: "CONTAINER_NAME"
           ContainerPort: "80"
